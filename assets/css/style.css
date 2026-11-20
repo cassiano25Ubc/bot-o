@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  
+}
+body {
+    font-family: sans-serif, Arial;
+}
+
+.botao {
+    display: inline-block;
+    padding: 30px 50px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 60px;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 1, 0.5);
+}
+.botao:hover {
+    background-color: #0056b3;
+}
